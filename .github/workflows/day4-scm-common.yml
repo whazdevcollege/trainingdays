@@ -3,13 +3,13 @@ name: day4-scm-common
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/common/**
       - .github/workflows/day4-scm-common.yml
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/common/**
       - .github/workflows/day4-scm-common.yml
