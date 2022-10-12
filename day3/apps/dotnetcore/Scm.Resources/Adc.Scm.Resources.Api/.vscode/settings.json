@@ -1,0 +1,9 @@
+{
+    "appService.preDeployTask": "day3publishScmResources",
+    "appService.deploySubpath": "publish",
+    "appService.defaultWebAppToDeploy": "None",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
